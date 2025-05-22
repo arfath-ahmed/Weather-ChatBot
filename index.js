@@ -18,6 +18,13 @@ function handleUserRequest(action, city) {
   // You can add more actions here like 'climate', 'humidity', etc.
 }
 
+function scrollInputIntoView() {
+  const input = document.getElementById("chat-input");
+  setTimeout(() => {
+    input.scrollIntoView({ behavior: "smooth", block: "center" });
+  }, 300); // Delay gives time for keyboard to appear
+}
+
 async function fetchTemperature(action, city)
 {
   try {
