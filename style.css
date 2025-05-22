@@ -80,7 +80,6 @@
     flex-direction: column;
     gap: 8px;
     scroll-behavior: smooth;
-    border: 1px solid black;
 }
 
 .chat-body::-webkit-scrollbar {
@@ -108,7 +107,6 @@
     font-weight: bold;
     margin-bottom: 4px;
     opacity: 0.6;
-    border: 2px solid black;
   }
   
   /* Bot message bubble */
