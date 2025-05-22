@@ -19,7 +19,7 @@ function handleUserRequest(action, city) {
 }
 
 function scrollInputIntoView() {
-  const input = document.getElementById("chat-input");
+  const input = document.getElementById("user-input");
   setTimeout(() => {
     input.scrollIntoView({ behavior: "smooth", block: "center" });
   }, 300); // Delay gives time for keyboard to appear
