@@ -152,7 +152,7 @@
   @media (max-width: 480px) {
     .main-container {
       width: 100%;
-      height: fit-content;
+      height: 95vh;
       margin: 0;
       border-radius: 0;
     }
